@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+
+<head>
+
+    
+    
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8" />
+    <meta name="baidu-site-verification" content="fbR0c5QCKl" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CSS Layout - Niflheimr</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    
+    <meta name="keywords" content="Naoyuki,Layout,CSS"> 
+    
+    <meta name="description" content="Dark Mode
+LayoutBackground PropertyCase 1:1234567891011&amp;lt;style&amp;gt;#bg &amp;#123;width:500px;height: 5,"> 
+    
+    <meta name="author" content="Naoyuki"> 
+    
+    <link rel="alternative" href="atom.xml" title="Niflheimr" type="application/atom+xml"> 
+    
+    <link rel="icon" href="/themes/diaspora/source/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-8691406134231910",
+            enable_page_level_ads: true
+        });
+    </script>
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+<meta name="generator" content="Hexo 4.2.1"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body class="loading">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><span id="config-title" style="display:none">Niflheimr</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://www.naoyuki.top"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">CSS Layout</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">CSS Layout</h1>
+        <div class="stuff">
+            <span>八月 31, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/CSS/" rel="tag">CSS</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p><a href="https://naoyuki.top/alter/layout.html" target="_blank" rel="noopener">Dark Mode</a></p>
+<h2 id="Layout"><a href="#Layout" class="headerlink" title="Layout"></a>Layout</h2><h3 id="Background-Property"><a href="#Background-Property" class="headerlink" title="Background Property"></a>Background Property</h3><h4 id="Case-1"><a href="#Case-1" class="headerlink" title="Case 1:"></a>Case 1:</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css"><span class="selector-id">#bg</span> &#123;</span></span><br><span class="line"><span class="css"><span class="selector-tag">width</span><span class="selector-pseudo">:500px</span>;</span></span><br><span class="line">height: 500px;</span><br><span class="line">background-color: blue;</span><br><span class="line"><span class="css"><span class="selector-tag">background-image</span>: <span class="selector-tag">url</span>(); <span class="comment">/*back ground use image*/</span></span></span><br><span class="line"><span class="css"><span class="selector-tag">background-repeat</span>: <span class="selector-tag">no-repeat</span>; <span class="comment">/* only show once */</span></span></span><br><span class="line"><span class="css"><span class="selector-tag">background-position</span>: <span class="selector-tag">right</span>;<span class="comment">/* the other dimension will be set to center by default */</span></span></span><br><span class="line">  </span><br><span class="line">&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="Case-2"><a href="#Case-2" class="headerlink" title="Case 2:"></a>Case 2:</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css"><span class="selector-id">#bg</span> &#123;</span></span><br><span class="line">width: 500px;</span><br><span class="line">height: 500px;</span><br><span class="line">background-color: blue;</span><br><span class="line">background: url() no-repeat right center; /*this actually causes background override </span><br><span class="line">  so no blue color in the back ground*/</span><br><span class="line">&#125; </span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Positioning-Elements-by-Floating"><a href="#Positioning-Elements-by-Floating" class="headerlink" title="Positioning Elements by Floating"></a>Positioning Elements by Floating</h3><h4 id="Case1"><a href="#Case1" class="headerlink" title="Case1:"></a>Case1:</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;</span><br><span class="line"><span class="attribute">width</span>: <span class="number">50px</span>;</span><br><span class="line"><span class="attribute">height</span>: <span class="number">50px</span>;</span><br><span class="line"><span class="attribute">border</span>: <span class="number">1px</span> solid black;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#p1</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#A52A2A</span>;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line"> <span class="comment">/* floated elements is taken out of the document flow and the margin won't collapse*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;</span><br><span class="line"><span class="attribute">width</span>: <span class="number">50px</span>;</span><br><span class="line"><span class="attribute">height</span>: <span class="number">50px</span>;</span><br><span class="line"><span class="attribute">border</span>: <span class="number">1px</span> solid black;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#p1</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#A52A2A</span>;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line"> <span class="comment">/* floated elements is taken out of the document flow and the margin won't collapse*/</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">section</span> &#123;</span><br><span class="line">  <span class="attribute">clear</span>: left; <span class="comment">/*no float in the left*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Case2-2-columns-layout"><a href="#Case2-2-columns-layout" class="headerlink" title="Case2: 2 columns layout"></a>Case2: 2 columns layout</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line">  p &#123;</span><br><span class="line"><span class="css">    <span class="selector-tag">width</span>: 50% <span class="comment">/* this means each floating elements will take up 50% of the block*/</span></span></span><br><span class="line">    border: 1px solid black;</span><br><span class="line">    float: left;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> &gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p1"</span>&gt;</span></span><br><span class="line">    Lorem ipsum dolor sit amet</span><br><span class="line">  <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p2"</span>&gt;</span></span><br><span class="line">    Beatus vir qui suffert tentationem</span><br><span class="line">  <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Relative-and-Absolute-Positioning-of-Elements"><a href="#Relative-and-Absolute-Positioning-of-Elements" class="headerlink" title="Relative and Absolute Positioning of Elements"></a>Relative and Absolute Positioning of Elements</h3><h4 id="Case1-Relative-Positioning"><a href="#Case1-Relative-Positioning" class="headerlink" title="Case1: Relative Positioning"></a>Case1: Relative Positioning</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line"> <span class="attribute">position</span>: relative;</span><br><span class="line"> <span class="attribute">top</span>: <span class="number">50px</span>;</span><br><span class="line"> <span class="attribute">left</span>: <span class="number">50px</span>;</span><br><span class="line">&#125;<span class="comment">/*its original places will be preserved and still in the document flow*/</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2020/08/31/PQaq9udvD6opwsL.png" alt="image-20200831105608106"></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line">  *&#123;</span><br><span class="line">    box-sizing: border-box;</span><br><span class="line">    margin: 0;</span><br><span class="line">    padding: 0;</span><br><span class="line">  &#125;</span><br><span class="line">  h1&#123;</span><br><span class="line">    margin-bottom: 15px;</span><br><span class="line">  &#125;</span><br><span class="line">  p &#123;</span><br><span class="line">    width: 50px;</span><br><span class="line">    height: 50px;</span><br><span class="line">    border: 1px solid black;</span><br><span class="line">    margin-bottom: 15px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">  <span class="selector-id">#p1</span>&#123;</span></span><br><span class="line">    background-color: maroon;</span><br><span class="line">    position: relative;</span><br><span class="line">    top: 65 px;</span><br><span class="line">    left: 65 px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2020/08/31/7w43iW8dDoh6MFY.png" alt="image-20200831111533056"></p>
+<h4 id="Case2-Absolute-Positioning"><a href="#Case2-Absolute-Positioning" class="headerlink" title="Case2: Absolute Positioning"></a>Case2: Absolute Positioning</h4><p><strong>Find the nearest relative/absolute positioning ancestor as offset basis</strong></p>
+<p><strong>The html tag by default is set to relative positioning</strong></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line">  *&#123;</span><br><span class="line">    box-sizing: border-box;</span><br><span class="line">    margin: 0;</span><br><span class="line">    padding: 0;</span><br><span class="line">  &#125;</span><br><span class="line">  h1&#123;</span><br><span class="line">    margin-bottom: 15px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">  <span class="selector-tag">div</span> <span class="selector-id">#container</span> &#123;</span></span><br><span class="line">    background-color: lightblue;</span><br><span class="line">  &#125;</span><br><span class="line">  p &#123;</span><br><span class="line">    width: 50px;</span><br><span class="line">    height: 50px;</span><br><span class="line">    border: 1px solid black;</span><br><span class="line">    margin-bottom: 15px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">  <span class="selector-id">#p1</span>&#123;</span></span><br><span class="line">    background-color: maroon;</span><br><span class="line">    position: relative;</span><br><span class="line">    top: 65 px;</span><br><span class="line">    left: 65 px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">    <span class="selector-id">#p2</span>&#123;</span></span><br><span class="line">    background-color: green;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">    <span class="selector-id">#p3</span>&#123;</span></span><br><span class="line">    background-color: blue;</span><br><span class="line">    position: absolute;</span><br><span class="line">    top: 0px;</span><br><span class="line">    left: 0px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"container"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p1"</span>&gt;</span> <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p2"</span>&gt;</span> <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p3"</span>&gt;</span> <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p4"</span>&gt;</span> <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>In this case, the div tag isn’t set with positioning type, so is the body tag, so the offset basis is actually the html tag.</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/08/31/Qs5bJvqp1XPHrwd.png" alt="image-20200831112241055"></p>
+<h4 id="To-Fix"><a href="#To-Fix" class="headerlink" title="To Fix"></a>To Fix</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">div</span> <span class="selector-id">#container</span> &#123;</span><br><span class="line">   <span class="attribute">background-color</span>: lightblue;</span><br><span class="line">   <span class="attribute">position</span>: relative;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="Offsetting-the-relative-container-makes-its-content-offset-as-well-Flexibility"><a href="#Offsetting-the-relative-container-makes-its-content-offset-as-well-Flexibility" class="headerlink" title="Offsetting the relative container makes its content offset as well. (Flexibility)"></a>Offsetting the relative container makes its content offset as well. (Flexibility)</h5><p><a url="https://naoyuki.top">Back to main page</a></p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls"
+                data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+            <ul id="audio-list" style="display:none">
+                
+                
+                <li title='0' data-url='https://link.hhtjim.com/163/1445523693.mp3'></li>
+                
+                    
+                
+                <li title='1' data-url='https://link.hhtjim.com/163/1431080276.mp3'></li>
+                
+                    
+                
+                <li title='2' data-url='https://link.hhtjim.com/163/85055008.mp3'></li>
+                
+                    
+            </ul>
+            
+        </div>
+        <div id="gitalk-container" class="comment link">加载评论</div>
+        </div>
+        
+</div>
+    </div>
+</div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/valine/1.4.14/Valine.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+</html>

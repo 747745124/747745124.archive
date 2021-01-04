@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>July&#39;s Playlist</title>
+    <url>/2020/07/29/Playlist/</url>
+    <content><![CDATA[<h2 id="7月份听了什么？"><a href="#7月份听了什么？" class="headerlink" title="7月份听了什么？"></a>7月份听了什么？</h2><iframe src="https://open.spotify.com/embed/playlist/1DQCdCFT0fi5QvHEu3Qqzn?si=lF5HVNXxT1G_a_WyfwRctQ/undefined" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
+
+<blockquote>
+<p>以上是7月份收听音乐的链接，共计12首，55分钟</p>
+<p>大部分音乐风格都比较安静，适合睡觉前听</p>
+</blockquote>
+<img src="https://heavydutymusic.com/wp-content/uploads/2018/09/Screen-Shot-2018-09-10-at-2.27.17-PM-1024x365.png" align = center alt="Heavy Duty + Pitchfork's Best New Music | Heavy Duty Music" style="zoom:33%;" />
+
+
+
+<h2 id="Top-3"><a href="#Top-3" class="headerlink" title="Top 3"></a><strong>Top 3</strong></h2><ul>
+<li><p>Sufjan Stevens - My Rajneesh</p>
+</li>
+<li><p>First Love / Late Spring - Mitski</p>
+</li>
+<li><p>Hoax - Taylor Swift</p>
+</li>
+</ul>
+<p>  荣誉提名：</p>
+<table>
+<thead>
+<tr>
+<th>My Rajneesh | Fourth Of July | Chicago</th>
+<th>Sufjan Stevens</th>
+<th>Indie Folk | Electronics</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>First Love / Late Spring</strong></td>
+<td><strong>Mitski</strong></td>
+<td><strong>Indie</strong></td>
+</tr>
+<tr>
+<td><strong>hoax</strong> <strong>|</strong> <strong>betty</strong> <strong>|</strong> <strong>august</strong></td>
+<td><strong>Taylor Swift</strong></td>
+<td><strong>Folk</strong></td>
+</tr>
+<tr>
+<td><strong>Alley Cat</strong></td>
+<td><strong>目黑将司</strong></td>
+<td><strong>Scorecore</strong></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="打分时间！"><a href="#打分时间！" class="headerlink" title="打分时间！"></a><strong>打分时间！</strong></h2><img src="https://s1.ax1x.com/2020/07/29/aVRFtx.png"  style="zoom:30%;" />
+
+<h3 id="评分：8-10"><a href="#评分：8-10" class="headerlink" title="评分：8/10"></a>评分：8/10</h3><p>Naoyuki:  Jack Antonoff，永远的神。 其实Bon Iver那首我倒是不太感冒，可能是因为嗓音不太对感觉。能感受到泰勒斯女士的新变化，整张专辑听下来的确很舒服，一体性做得也很不错，可能的问题在于记忆点不足，听完一张专辑后不太能记得歌曲的旋律。特别Pick的曲目就是上方表格里的三首。</p>
+<img src="https://s1.ax1x.com/2020/07/29/aVRkh6.png"  style="zoom:30%;" />
+
+<h3 id="评分：7-10-America-10-10-My-Rajneesh"><a href="#评分：7-10-America-10-10-My-Rajneesh" class="headerlink" title="评分：7/10 (America) | 10/10 (My Rajneesh)"></a>评分：7/10 (America) | 10/10 (My Rajneesh)</h3><p>Naoyuki:  为什么Sufjan没有把My Rajneesh放到专辑里面呢？明明无论是旋律还是制作的丰富程度上都是My Rajneesh赢惨了。 P.S. Sufjan 新专辑《Ascension》将于9.25发售，请大家多多支持</p>
+<blockquote>
+<p>最后祝大家艺术每一天。</p>
+</blockquote>
+<hr>
+<p>7.29日程：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 学习Machine Learning</li>
+<li><input checked="" disabled="" type="checkbox"> 0:00准时收听网抑云</li>
+<li><input disabled="" type="checkbox"> 点外卖</li>
+<li><input disabled="" type="checkbox"> 健身环</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>Music</tag>
+        <tag>Playlist</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Logic日记-01</title>
+    <url>/2020/07/30/LogicProX1/</url>
+    <content><![CDATA[<h2 id="Logic-Pro-X-日记1：写作配器思考"><a href="#Logic-Pro-X-日记1：写作配器思考" class="headerlink" title="Logic Pro X 日记1：写作配器思考"></a>Logic Pro X 日记1：写作配器思考</h2><blockquote>
+<p>本篇内容不会涉及较多的乐理内容，主要与配器的思考相关</p>
+<p>2个月前写了一段40s左右的音乐，Genre定义为Nujazz（更为现代风格的爵士）</p>
+<p>以下是音乐链接：<a href="https://music.163.com/#/album?id=89561185" target="_blank" rel="noopener">https://music.163.com/#/album?id=89561185</a></p>
+</blockquote>
+<h3 id="混音与配器："><a href="#混音与配器：" class="headerlink" title="混音与配器："></a>混音与配器：</h3><p>乐曲的配器构成不仅影响了音乐的丰富程度，同时还会在一定程度上影响音乐的三频<a href="可以通过混音解决，但是比较考验制作者的技巧">^解决方案</a>，通常来说，音乐虽然没有审美上的correctness，但是的确是有技巧上的正确性的。譬如混音的时候Stereo Out都破音了，三频非常不均衡导致声音听起来非常闷等等。</p>
+<p><img src="https://i.loli.net/2020/07/30/k2zQCfqx81hYBbM.png" alt="image-20200730035418720"></p>
+<p><strong>图中每条轨道上都对应着一个滑块和矩形条，混音的时候如果Stereo Out的Bnc条经常爆表，就会爆音，产生听感上的不适和细节的损失</strong></p>
+<blockquote>
+<p>我之前写的一首电子在最开始20s都有这样明显的问题，导致声音听起来有客观的不适感（当然除此之外还有一个10khz的超高频率声音的问题，这个可以通过调EQ缓解）</p>
+</blockquote>
+<hr>
+<h3 id="关于配器："><a href="#关于配器：" class="headerlink" title="关于配器："></a>关于配器：</h3><p>这篇文章就以我写的这个片段为例：</p>
+<ul>
+<li>该片段一共11轨，</li>
+<li>BPM设定在126， 4/4拍 （实际是252BPM的2/4拍），整体风格明快</li>
+<li>主旋律轨道为 Horn Selection， 1个打击乐轨道，1个环境音采样轨道，1个bass轨道，3个chord轨道</li>
+<li>其余轨道均为加花</li>
+</ul>
+<p><strong>接下来聊一些配器为什么这么选用的理由</strong></p>
+<p>首先明确，大部分音乐作品中，主旋律轨道、打击乐、bass和chord四大构成是必须都要有的</p>
+<p>主旋律轨道采用Horn Selection是因为需要有一个相对来说<strong>比较集中的声音</strong>去营造出一种热闹欢快的感觉，因此采用自带Horn Selection而非单一乐器</p>
+<p>打击乐轨道为了配合目标风格Nujazz，选用了比较有内味的New Soul Kit （个人认为比较重要的一点是听鼓的Hi-Hat是否够松散）</p>
+<p><img src="https://i.loli.net/2020/07/30/fI5WoTlgeFyRtpw.png" alt="image-20200730035737419"></p>
+<blockquote>
+<p>以上是打击乐轨道的部分片段，可以在进入正式主旋律部分的时候连续敲击Crash制造欢快感，其他的话还是基本的2/4拍强弱节奏型+过门的时候塞一点16分音符</p>
+</blockquote>
+<p>Bass轨道采用的是相对来说比较古典的Upright Bass，因为希望营造出的感觉是欢快的派对/酒吧的场景，如果用电bass会有一些ooc[^缩写]，因此就采用低音提琴了，而且这样也不至于让低音太过分。</p>
+<p><img src="https://i.loli.net/2020/07/30/5sm9GrFvSkWMiNy.png" alt="image-20200730030711440"></p>
+<blockquote>
+<p>低音部分如上，基本上是八分音符高低交替，偶尔塞个16分，是比较常见的Walking-Bass技巧</p>
+<p>通过高低音的交替，可以提高旋律的bass部分的动感</p>
+</blockquote>
+<p>有了主旋律和打击乐，接下来塞Chord，和弦部分一共采用电子琴，大提琴组，钢琴，分别用于提升音乐的现代感（Nujazz靠拢），大提琴组采用Tremelo预设，提升欢快感，钢采用8分音符和弦堆叠，提高整体音乐的厚实度。</p>
+<blockquote>
+<p>插一句：电子琴采用Crystal Pad，大提琴组采用的Spitfire Audio Studio Strings（非常推荐），</p>
+<p>钢琴采用的是Logic的贝森朵夫大钢琴（我的最爱，比自家的施坦威要好听，很有厚度）</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/07/30/JOTusaXwyc1mizS.png" alt="image-20200730031043588"></p>
+<blockquote>
+<p>如果想往爵士一点的风格靠，和弦的选用上需要复杂一些，尝试从6/9，7/11等和弦入手，不过听起来不要太不和谐，毕竟你我都不是勋伯格（笑）。 然后还有一点是上图右侧其实是滚奏的效果，<strong>滚奏是只弹白键的！！！！！</strong> 这里是64分音符</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/07/30/teSHDiIGUuc8vpF.png" alt="image-20200730032125630"></p>
+<blockquote>
+<p>这个是Strings部分的曲谱，和弦基本和钢琴保持一致（也没有必要不一致），相对来说没有必要像钢琴那样密集，钢琴那么密集的和弦弹奏是因为要营造出欢快的感觉，Strings要欢快直接在运音法里设置tremelo就好啦～</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/07/30/YvzfsJnZ9pF3Lwq.png" alt="image-20200730032409247"></p>
+<blockquote>
+<p>关于加花的部分我通常是直接在Apple乐段里输入风格关键词，看看有没有合适的乐段截取一部分直接塞进去。以下是一个加花的部分，主要特点是后半拍进+midi处理很Swing，完全没有过分整齐的呆板感觉，当然你也可以通过选择midi音符-&gt;midi音符事件-&gt;随机 或者是 量化摇摆来一定程度上模拟这些感觉。</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/07/30/7NBdvMoXx1wJjKW.png" alt="image-20200730032650103"></p>
+<blockquote>
+<p>加花的部分主要就是给音乐带来一些听觉上的惊喜和层次上的丰富，能多当然是好事，但是越多的层次也意味着混音难度的增大。这边主要选用的音色依然是电子琴，很多时候电子琴作为主音还是很潮的。</p>
+</blockquote>
+<p>Nujazz既强调现代感，又强调爵士感，那么从以上的配器选用来看，一方面不能选择棱角分明的乐器（例如电吉他、电贝斯），另一方面也不能缺少现代元素（电子合成器），所以低音贝斯，Crystal Pad，还有Neo Soul Kit的选用就显得很合理而自然。</p>
+<p>总而言之，在写一段乐曲之前，要先明确自己想要呈现什么样的风格，什么样的乐器符合这种风格。思考这些问题有助于更好地找到合适的音源，从而写出更好的音乐。</p>
+<p><strong>P.S. 不要忘了Apple乐段的sample库，在需要加花的时候相当有用。</strong></p>
+<blockquote>
+<p>非常推荐Spitfire Audio Studio系列的音源，其中Woodwind和Strings都属于体积没那么大（20G左右），但是音质相当可以的音源，对比Logic自带有非常大的提升。 古典吉他音源比较推荐ilya-efimov nylon guitar和ample guitar LP，体积不大（5G），各种细微的声音都有很好地模拟出来。</p>
+</blockquote>
+<p>[^缩写]: out of character</p>
+]]></content>
+      <categories>
+        <category>Music Production</category>
+      </categories>
+      <tags>
+        <tag>Music Production</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>机器学习 K-means聚类算法</title>
+    <url>/2020/07/30/kmeans/</url>
+    <content><![CDATA[<p><a href="https://naoyuki.top/alter/kmeans.html" target="_blank" rel="noopener">夜间观看请点</a></p>
+<h2 id="Machine-Learning-K-means-Clutstering-Part-1"><a href="#Machine-Learning-K-means-Clutstering-Part-1" class="headerlink" title="Machine Learning K-means Clutstering Part 1"></a>Machine Learning K-means Clutstering Part 1</h2><p>K-means聚类是unsupervised learning-&gt;clustering问题当中的常见算法。</p>
+<blockquote>
+<p>聚类即给一定组数据，将类似的数据进行分组, 组内成员的相似性根据算法而变化，一般取决于坐标，距离等。K-means聚类是通过单个点类内中心(kernel)的距离来进行分类。</p>
+</blockquote>
+<img src="https://i.loli.net/2020/07/30/bEGUyTLYcOMzK5H.png" alt="image-20200730183733908" style="zoom:25%;" />
+
+
+
+
+
+<h3 id="其基本思路如下："><a href="#其基本思路如下：" class="headerlink" title="其基本思路如下："></a>其基本思路如下：</h3><p>首先确定集群的数量（即：我要把这些数据分成几类？）<strong>算法特点</strong></p>
+<p>以下图为例，假设需要初始化3个中心，则随机设置3个点（通常从数据当中选）</p>
+<img src="https://i.loli.net/2020/07/30/hDvtBG3QjpxdCmP.png" alt="image-20200730184340107" style="zoom:25%;" />
+
+
+
+<p>每个点都计算并判断距离自己最近的中心点，从而每个点都被分类到了一个集群当中</p>
+<p>例如离我最近的中心点是2号中心点，那么此时我被归类到2号集群当中</p>
+<img src="https://i.loli.net/2020/07/30/b3SKF2P4jpwiVqG.png" alt="image-20200730184605350" style="zoom:25%;" />
+
+
+
+
+
+<p>计算每个集群的重心， 然后将中心点移动到重心处</p>
+<img src="https://i.loli.net/2020/07/30/NtX3Gf46yP7IOTY.png" alt="image-20200730184800330" style="zoom:25%;" />
+
+
+
+<p>每个点再次计算距离自己最近的中心点，并重新聚类</p>
+<p>可以看出，每个点所归属的类别是可能随着中心点发生改变而改变的。</p>
+<p>重复【移动中心点】-&gt; 【聚类】一直到中心点不再移动（收敛）<strong>数学证明收敛有必然性，此处略</strong></p>
+<img src="https://i.loli.net/2020/07/30/sOhwNqdQanPU52F.png" alt="image-20200730185629996" style="zoom:25%;" />
+
+
+
+<p>K-means的特性是聚类结果根据随机设置的中心点的位置而发生改变，即初始值会影响终态</p>
+<p>另一个特性则是前面提到过的<strong>需要提前确定好将数据分成几类</strong></p>
+<h3 id="具体算法："><a href="#具体算法：" class="headerlink" title="具体算法："></a>具体算法：</h3><h4 id="模型假设："><a href="#模型假设：" class="headerlink" title="模型假设："></a>模型假设：</h4><p>假设一共有要分成K类</p>
+<p>一共有m个数据$${x^1,x^2,x^3,x^4…x^m}$$每个数据为n维，即$$x^i \in \mathbb{R^n} $$</p>
+<p>一共有K个中心点（分成K类）$$\mu_1,\mu_2,\mu_3…\mu_K$$这些中心点从数据中随机选择(randomly initialized)</p>
+<p>Ci 定义为距离点 Xi 最近的中心点编号，例如：点  X2 距离中心点  U1 最近，那么 C2 =1.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">while(not converged yet)</span><br><span class="line">&#123;</span><br><span class="line">for(i &#x3D; 1 to m)</span><br><span class="line"> &#123;</span><br><span class="line">  distance &#x3D; (Xi-U1)^2</span><br><span class="line">  index &#x3D; 1</span><br><span class="line">  </span><br><span class="line">  for(k &#x3D; 1 to K)</span><br><span class="line">      &#123;</span><br><span class="line">      temp &#x3D; (Xi-Uk)^2</span><br><span class="line">      </span><br><span class="line">      if(temp &lt; distance)</span><br><span class="line">      &#123;distance &#x3D; temp</span><br><span class="line">      index &#x3D; k&#125;</span><br><span class="line">      </span><br><span class="line">      &#125; &#x2F;&#x2F; gets the index of kernel U when distance (Xi-Uk)^2 reaches minimum</span><br><span class="line">      </span><br><span class="line">  Ci &#x3D; k </span><br><span class="line"> &#125;</span><br><span class="line"> </span><br><span class="line"> for(k &#x3D; 1 to K)</span><br><span class="line">   &#123;</span><br><span class="line">   Uk &#x3D; sum(Xi)&#x2F;n</span><br><span class="line">   &#125; </span><br><span class="line"> </span><br><span class="line"> &#125;&#x2F;&#x2F;After each repeat, Ci &#x3D; closet kernel&#39;s index, each Uk moves to new place</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="Cost-Function："><a href="#Cost-Function：" class="headerlink" title="Cost Function："></a>Cost Function：</h4><p>​    该算法的Cost Function如下定义，变量为Ci和Uk ，计算的是m个点到聚类中心点距离的平均值，也就是说平均每个点到聚类中心点的距离，以此来衡量聚类效果的好坏。</p>
+<p><img src="https://i.loli.net/2020/07/30/9coYumS7AwtjyHG.png" alt="image-20200730200626782"></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">for i &#x3D; 1 to 100 &#x2F;&#x2F;not necessarily 100, just a large number</span><br><span class="line">&#123;</span><br><span class="line">randomly initialize Uk</span><br><span class="line">Run K-means, Get Ci and Uk</span><br><span class="line">Compute Cost Function J &#x2F;&#x2F;also called distortion</span><br><span class="line">Get min(J)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>由于初始值的选择会影响最终聚类的结果，因此我们需要不断随机初始值，并最终获得一个最小的J。</p>
+<h4 id="关于K值的选择："><a href="#关于K值的选择：" class="headerlink" title="关于K值的选择："></a>关于K值的选择：</h4><p>根据需求，譬如服装厂商需要根据二维数据（身高体重），将用户尺码分为S，M，L三个尺寸（也可以更多），此时K = 3， 如果需要更加细分， 增加XS， XL之后， K = 5。</p>
+<p>从Cost Function的定义当中可以看出，通常来说，在初值正常选择的情况下，分的类越多（K越大），那么Cost Function的值会越小， 当K = m时，J = 0（但这样就失去了聚类的意义）</p>
+<p><img src="https://i.loli.net/2020/07/30/TdPItvULgzD3Nik.png" alt="image-20200730202029274"></p>
+<p>K值并不是越大越好，一方面K值过大会失去聚类的意义，另一方面K值增大也会增加计算量。因此需要选择一个恰当的K，如果J-K曲线当中存在一个明显的拐点（Elbow，因为像人的手臂），那么一半选择这个点的K值作为结果。但很多时候，J-K曲线可能更像右图一些…</p>
+<p><a href="https://naoyuki.top" target="_blank" rel="noopener">回到主页</a></p>
+]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>机器学习 PCA算法</title>
+    <url>/2020/07/31/PCA/</url>
+    <content><![CDATA[<p><a href="https://naoyuki.top/alter/PCA.html" target="_blank" rel="noopener">夜间观看请点</a></p>
+<h2 id="PCA在机器学习降维中的应用"><a href="#PCA在机器学习降维中的应用" class="headerlink" title="PCA在机器学习降维中的应用"></a>PCA在机器学习降维中的应用</h2><h3 id="为什么要降维-Dimensionality-Reduction-？"><a href="#为什么要降维-Dimensionality-Reduction-？" class="headerlink" title="为什么要降维(Dimensionality Reduction)？"></a>为什么要降维(Dimensionality Reduction)？</h3><p>   1.提取重要信息，防止计算量过大</p>
+<p>   2.高维信息无法用图像呈现，将图像降维至3维以下可以用图像呈现</p>
+<h3 id="如何降维？"><a href="#如何降维？" class="headerlink" title="如何降维？"></a>如何降维？</h3><p>用两个简单的例子来说明：</p>
+<h4 id="2维到1维："><a href="#2维到1维：" class="headerlink" title="2维到1维："></a>2维到1维：</h4><p><img src="https://i.loli.net/2020/07/31/IBne4NU3RK5sHhd.png" alt="image-20200731190754948"></p>
+<p><strong>用一条直线拟合二维平面上的所有数据点，然后每个数据点在这条线上都具有一个投影坐标，从而2维数据坐标平面变为1维直线</strong></p>
+<h4 id="3维到2维："><a href="#3维到2维：" class="headerlink" title="3维到2维："></a>3维到2维：</h4><p><img src="https://i.loli.net/2020/07/31/IwatjgBbeWcnLSQ.png" alt="image-20200731191147148"></p>
+<p><strong>同样地，用一个平面拟合空间里的所有数据点，把每个数据点投影在这个平面上，从而3维数据坐标空间变为2维平面</strong></p>
+<h3 id="PCA-Principle-Components-Analysis-主成分分析法"><a href="#PCA-Principle-Components-Analysis-主成分分析法" class="headerlink" title="PCA(Principle Components Analysis)主成分分析法"></a>PCA(Principle Components Analysis)主成分分析法</h3><blockquote>
+<p>PCA本质上是在找出一組最能代表你手中數據的主成分（Principal Components），並以此為基底重新得到數據的成分表徵。這個新的成分表徵能為數據降維、去關聯並幫助我們理解數據本質。</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/07/31/zVOfijZ1UEHCQYn.png" alt="image-20200731191907123"></p>
+<p>n维空间需要n个线性无关的向量来作为空间的基，可以简单理解为n维空间需要n个坐标轴。</p>
+<p>例如2维空间降维到1维空间，本质上就是找到一个向量，将2维平面上的所有点都投影到这个向量上。如果是n维空间降维到k维空间，则需要寻找到k个向量，并将每个数据点投影到这k个向量上，从而构成新的k维空间坐标$$\vec a = (x_1,x_2,x_3) \in \mathbb{R^3}$$</p>
+<p>3维空间降维到2维空间之后，产生2个基，从而向量可以重新表示为：</p>
+<p>假设变换矩阵为U，则新的坐标Z = U*X（原有坐标）</p>
+<p>其中$$\vec a   = (z_1,z_2)\in \mathbb{R^2}$$</p>
+<p>经过这样的流程，三维坐标被化为二维坐标，之所以二维坐标依然能保留三维数据的主要信息，是因为两个基底本身是三维的，并且他们描述了这个三维数据集的主要特性，因此后续只需要对这两个基进行线性组合就可以了。在PCA算法中，我们将N维空间压缩到K维空间，其步骤如下</p>
+<h4 id="算法具体流程"><a href="#算法具体流程" class="headerlink" title="算法具体流程"></a>算法具体流程</h4><p><img src="https://i.loli.net/2020/07/31/1XCQrZbJq69LF5M.png" alt="image-20200731194118017"></p>
+<p><strong>假设我们要把N维数据降到K维</strong></p>
+<p>定义<strong>协方差矩阵(Covariance Matrix):</strong></p>
+<p>$$\Sigma =  1/m \sum_{i=1}^n (x^i)(x^i)^T$$</p>
+<p>其中x^i为第i个训练数据，<strong>注意左侧的符号是大写的Sigma</strong>，不是求和符号。</p>
+<p>协方差矩阵是一个n* n的对称矩阵，应用svd/eig函数求得协方差矩阵的特征向量，返回值[U,S,V]为3个矩阵，其中S为与协方差矩阵相同大小的矩阵，并满足U* S* V’ = Sigma。</p>
+<p>SVD函数会将矩阵的N个特征向量按照重要性降序排列，我们选取前K个，再将原有的数据集投影到这K个<strong>比较重要</strong>的特征向量上，那么我们就将原有的N维数据压缩成了K维数据，这也是PCA的主要思想。除此之外，数学上证明，<strong>协方差矩阵的特征向量值就是我们需要找的主成分</strong>。</p>
+<p>SVD函数返回值U是协方差矩阵的特征向量矩阵，是一个n*n方阵，选取前k个后变为n*k的降维矩阵,原有的坐标Xi是一个n1的向量。$$z^i = U^T * x^i$$ </p>
+<p>其中z为k维空间的k*1的新坐标，x为原n维空间的坐标。</p>
+<p><img src="https://i.loli.net/2020/07/31/ZJ2TlWsRI3AfNVn.png" alt="image-20200731205646922"></p>
+<p>下面是一段关于特征向量的说明作为小结：</p>
+<blockquote>
+<p>具体的说，求特征向量，就是<strong>把矩阵A所代表的空间进行正交分解</strong>，使得A的向量集合可以表示为每个向量a在各个特征向量上的投影长度。我们通常求特征值和特征向量即为求出这个矩阵能使哪些向量<strong>只发生拉伸，而方向不发生变化</strong>，观察其发生拉伸的程度。这样做的意义在于，看清一个矩阵在哪些方面能产生<strong>最大的分散度</strong>（scatter），减少重叠，意味着更多的信息被保留下来。</p>
+</blockquote>
+<h4 id="我们如何衡量一个降维是好还是坏？"><a href="#我们如何衡量一个降维是好还是坏？" class="headerlink" title="我们如何衡量一个降维是好还是坏？"></a>我们如何衡量一个降维是好还是坏？</h4><p>1.较高的近似程度 2.所选择的K个基有较大变异(Variance)（原来的数据集在这个基上分散得最开）</p>
+<p>当你选择的K个基具有了很好的代表性，那么降维之后的数据就能很好近似地还原原有的数据。<strong>为了衡量近似程度，这里需要引出一个概念：重建偏差（RE）</strong></p>
+<h5 id="重建偏差（Reconstruction-Error）："><a href="#重建偏差（Reconstruction-Error）：" class="headerlink" title="重建偏差（Reconstruction Error）："></a>重建偏差（Reconstruction Error）：</h5><p>这个概念应该很好理解，就是原有数据被投影到k维之后，再还原回n维空间，值得指出的是，由于PCA没有保留所有的主成分（否则就无法实现降维），还原数据之后原有的数据必然会与还原的数据产生一定的偏差（就数据集而言），这些偏差定义出了RE：等于所有还原数据和原有数据的距离之和</p>
+<p><img src="https://i.loli.net/2020/07/31/KEMymkTUjL8VDre.png" alt="image-20200731211902129"></p>
+<p>其中T^-1（因为图是别处拿的，所以其实是降维矩阵U）的逆矩阵。</p>
+<p>根据前文，我们有$$z^i = U^T * x^i$$  那么想要还原x，就只需要左乘U’的逆矩阵，即$$inv(U^T)*z^i = X^i$$</p>
+<p><img src="https://i.loli.net/2020/07/31/tdGVKxYq2epNX1D.png" alt="image-20200731212651722"></p>
+<blockquote>
+<p>图中黄线的距离之和就是RE的值</p>
+</blockquote>
+<p>误差程度如下定义：<img src="https://i.loli.net/2020/07/31/a7xem9JlcGvunh6.png" alt="image-20200731213131810"></p>
+<p>倘若我们需要实现99%的近似程度，只需要选择一个k能使得误差程度&lt;1%就可以了，当然为了实现最大程度的压缩，k越小越好。</p>
+<h5 id="有人可能会问，是不是存在别的近似方式，使得误差程度更小呢？"><a href="#有人可能会问，是不是存在别的近似方式，使得误差程度更小呢？" class="headerlink" title="有人可能会问，是不是存在别的近似方式，使得误差程度更小呢？"></a>有人可能会问，是不是存在别的近似方式，使得误差程度更小呢？</h5><p>数学上证明（苦笑），PCA方式实现的近似是误差程度最小的。</p>
+<p>最后贴一个很好的关于PCA的链接：</p>
+<p><a href="https://leemeng.tw/essence-of-principal-component-analysis.html" target="_blank" rel="noopener">https://leemeng.tw/essence-of-principal-component-analysis.html</a></p>
+<p><a href="https://naoyuki.top" target="_blank" rel="noopener">返回主页</a></p>
+]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Box Model in CSS</title>
+    <url>/2020/08/31/Box%20Model/</url>
+    <content><![CDATA[<p><a href="https://naoyuki.top/alter/BoxModel.html" target="_blank" rel="noopener">Dark Mode</a></p>
+<h2 id="Box-Model"><a href="#Box-Model" class="headerlink" title="Box Model"></a>Box Model</h2><p>1.consists of margin border and padding.</p>
+<div style="text-align: left"><img src="https://i.loli.net/2020/08/31/ymEB3grthM4zxJq.png" alt="image-20200831090330423" style="zoom:50%;" /></div>
+
+<p>2.default width property: is designated to the content box</p>
+<p>3.border box property:is designated to the entire box(including padding and border)</p>
+<p><strong>4.box-sizing will not be inherited</strong></p>
+<h4 id="Star-selector-Universal-selector-without-being-overridden-Often-used-to-reset-browser-default-setting"><a href="#Star-selector-Universal-selector-without-being-overridden-Often-used-to-reset-browser-default-setting" class="headerlink" title="Star selector: Universal selector without being overridden (Often used to reset browser default setting)"></a>Star selector: Universal selector without being overridden (Often used to reset browser default setting)</h4><figure class="highlight css"><table><tr><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* universal selector */</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>5.horizontal margin is cumulative (A on the left and B on the right)</strong></p>
+<p><strong>6.Vertical margin won’t add up, the larger margin wins (2 margins collapsed)</strong></p>
+<h4 id="Problem-Content-overflow"><a href="#Problem-Content-overflow" class="headerlink" title="Problem: Content overflow"></a>Problem: Content overflow</h4><p><img src="https://i.loli.net/2020/08/31/WqtiAc9UsvfgDoJ.png" alt="image-20200831093050191"></p>
+<p>this is because the content of the box is restrained in a very tiny place</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#box</span>&#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">20px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">&lt;div id = box&gt;Lorem ipsum dolor sit amet&lt;/div&gt; </span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="To-fix"><a href="#To-fix" class="headerlink" title="To fix:"></a>To fix:</h5><ol>
+<li><p>overflow parameter (by default is set to visible)</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#box</span>&#123;</span><br><span class="line"><span class="attribute">overflow</span>: auto;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* width scroll bar */</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSS Layout</title>
+    <url>/2020/08/31/Layout/</url>
+    <content><![CDATA[<p><a href="https://naoyuki.top/alter/layout.html" target="_blank" rel="noopener">Dark Mode</a></p>
+<h2 id="Layout"><a href="#Layout" class="headerlink" title="Layout"></a>Layout</h2><h3 id="Background-Property"><a href="#Background-Property" class="headerlink" title="Background Property"></a>Background Property</h3><h4 id="Case-1"><a href="#Case-1" class="headerlink" title="Case 1:"></a>Case 1:</h4><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css"><span class="selector-id">#bg</span> &#123;</span></span><br><span class="line"><span class="css"><span class="selector-tag">width</span><span class="selector-pseudo">:500px</span>;</span></span><br><span class="line">height: 500px;</span><br><span class="line">background-color: blue;</span><br><span class="line"><span class="css"><span class="selector-tag">background-image</span>: <span class="selector-tag">url</span>(); <span class="comment">/*back ground use image*/</span></span></span><br><span class="line"><span class="css"><span class="selector-tag">background-repeat</span>: <span class="selector-tag">no-repeat</span>; <span class="comment">/* only show once */</span></span></span><br><span class="line"><span class="css"><span class="selector-tag">background-position</span>: <span class="selector-tag">right</span>;<span class="comment">/* the other dimension will be set to center by default */</span></span></span><br><span class="line">  </span><br><span class="line">&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="Case-2"><a href="#Case-2" class="headerlink" title="Case 2:"></a>Case 2:</h4><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css"><span class="selector-id">#bg</span> &#123;</span></span><br><span class="line">width: 500px;</span><br><span class="line">height: 500px;</span><br><span class="line">background-color: blue;</span><br><span class="line">background: url() no-repeat right center; /*this actually causes background override </span><br><span class="line">  so no blue color in the back ground*/</span><br><span class="line">&#125; </span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Positioning-Elements-by-Floating"><a href="#Positioning-Elements-by-Floating" class="headerlink" title="Positioning Elements by Floating"></a>Positioning Elements by Floating</h3><h4 id="Case1"><a href="#Case1" class="headerlink" title="Case1:"></a>Case1:</h4><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;</span><br><span class="line"><span class="attribute">width</span>: <span class="number">50px</span>;</span><br><span class="line"><span class="attribute">height</span>: <span class="number">50px</span>;</span><br><span class="line"><span class="attribute">border</span>: <span class="number">1px</span> solid black;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#p1</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#A52A2A</span>;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line"> <span class="comment">/* floated elements is taken out of the document flow and the margin won't collapse*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;</span><br><span class="line"><span class="attribute">width</span>: <span class="number">50px</span>;</span><br><span class="line"><span class="attribute">height</span>: <span class="number">50px</span>;</span><br><span class="line"><span class="attribute">border</span>: <span class="number">1px</span> solid black;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#p1</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#A52A2A</span>;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line"> <span class="comment">/* floated elements is taken out of the document flow and the margin won't collapse*/</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">section</span> &#123;</span><br><span class="line">  <span class="attribute">clear</span>: left; <span class="comment">/*no float in the left*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Case2-2-columns-layout"><a href="#Case2-2-columns-layout" class="headerlink" title="Case2: 2 columns layout"></a>Case2: 2 columns layout</h4><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line">  p &#123;</span><br><span class="line"><span class="css">    <span class="selector-tag">width</span>: 50% <span class="comment">/* this means each floating elements will take up 50% of the block*/</span></span></span><br><span class="line">    border: 1px solid black;</span><br><span class="line">    float: left;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> &gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p1"</span>&gt;</span></span><br><span class="line">    Lorem ipsum dolor sit amet</span><br><span class="line">  <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p2"</span>&gt;</span></span><br><span class="line">    Beatus vir qui suffert tentationem</span><br><span class="line">  <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Relative-and-Absolute-Positioning-of-Elements"><a href="#Relative-and-Absolute-Positioning-of-Elements" class="headerlink" title="Relative and Absolute Positioning of Elements"></a>Relative and Absolute Positioning of Elements</h3><h4 id="Case1-Relative-Positioning"><a href="#Case1-Relative-Positioning" class="headerlink" title="Case1: Relative Positioning"></a>Case1: Relative Positioning</h4><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line"> <span class="attribute">position</span>: relative;</span><br><span class="line"> <span class="attribute">top</span>: <span class="number">50px</span>;</span><br><span class="line"> <span class="attribute">left</span>: <span class="number">50px</span>;</span><br><span class="line">&#125;<span class="comment">/*its original places will be preserved and still in the document flow*/</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2020/08/31/PQaq9udvD6opwsL.png" alt="image-20200831105608106"></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line">  *&#123;</span><br><span class="line">    box-sizing: border-box;</span><br><span class="line">    margin: 0;</span><br><span class="line">    padding: 0;</span><br><span class="line">  &#125;</span><br><span class="line">  h1&#123;</span><br><span class="line">    margin-bottom: 15px;</span><br><span class="line">  &#125;</span><br><span class="line">  p &#123;</span><br><span class="line">    width: 50px;</span><br><span class="line">    height: 50px;</span><br><span class="line">    border: 1px solid black;</span><br><span class="line">    margin-bottom: 15px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">  <span class="selector-id">#p1</span>&#123;</span></span><br><span class="line">    background-color: maroon;</span><br><span class="line">    position: relative;</span><br><span class="line">    top: 65 px;</span><br><span class="line">    left: 65 px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2020/08/31/7w43iW8dDoh6MFY.png" alt="image-20200831111533056"></p>
+<h4 id="Case2-Absolute-Positioning"><a href="#Case2-Absolute-Positioning" class="headerlink" title="Case2: Absolute Positioning"></a>Case2: Absolute Positioning</h4><p><strong>Find the nearest relative/absolute positioning ancestor as offset basis</strong></p>
+<p><strong>The html tag by default is set to relative positioning</strong></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line">  *&#123;</span><br><span class="line">    box-sizing: border-box;</span><br><span class="line">    margin: 0;</span><br><span class="line">    padding: 0;</span><br><span class="line">  &#125;</span><br><span class="line">  h1&#123;</span><br><span class="line">    margin-bottom: 15px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">  <span class="selector-tag">div</span> <span class="selector-id">#container</span> &#123;</span></span><br><span class="line">    background-color: lightblue;</span><br><span class="line">  &#125;</span><br><span class="line">  p &#123;</span><br><span class="line">    width: 50px;</span><br><span class="line">    height: 50px;</span><br><span class="line">    border: 1px solid black;</span><br><span class="line">    margin-bottom: 15px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">  <span class="selector-id">#p1</span>&#123;</span></span><br><span class="line">    background-color: maroon;</span><br><span class="line">    position: relative;</span><br><span class="line">    top: 65 px;</span><br><span class="line">    left: 65 px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">    <span class="selector-id">#p2</span>&#123;</span></span><br><span class="line">    background-color: green;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">    <span class="selector-id">#p3</span>&#123;</span></span><br><span class="line">    background-color: blue;</span><br><span class="line">    position: absolute;</span><br><span class="line">    top: 0px;</span><br><span class="line">    left: 0px;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"container"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p1"</span>&gt;</span> <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p2"</span>&gt;</span> <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p3"</span>&gt;</span> <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">"p4"</span>&gt;</span> <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>In this case, the div tag isn’t set with positioning type, so is the body tag, so the offset basis is actually the html tag.</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/08/31/Qs5bJvqp1XPHrwd.png" alt="image-20200831112241055"></p>
+<h4 id="To-Fix"><a href="#To-Fix" class="headerlink" title="To Fix"></a>To Fix</h4><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">div</span> <span class="selector-id">#container</span> &#123;</span><br><span class="line">   <span class="attribute">background-color</span>: lightblue;</span><br><span class="line">   <span class="attribute">position</span>: relative;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="Offsetting-the-relative-container-makes-its-content-offset-as-well-Flexibility"><a href="#Offsetting-the-relative-container-makes-its-content-offset-as-well-Flexibility" class="headerlink" title="Offsetting the relative container makes its content offset as well. (Flexibility)"></a>Offsetting the relative container makes its content offset as well. (Flexibility)</h5><p><a url="https://naoyuki.top">Back to main page</a></p>
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>August&#39;s Playlist</title>
+    <url>/2020/09/01/August&#39;s%20Playlist/</url>
+    <content><![CDATA[<h2 id="August’s-Playlist"><a href="#August’s-Playlist" class="headerlink" title="August’s Playlist"></a>August’s Playlist</h2><iframe src="https://open.spotify.com/embed/playlist/5PcT7YHQfbFdfBHNFYUkMV?si=hY6SZOcjS3OxPfjo0YwBXg/undefined" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
+
+<blockquote>
+<p>以上是八月收听的音乐链接，共计8首，39分钟</p>
+</blockquote>
+<hr>
+<h2 id="Top3"><a href="#Top3" class="headerlink" title="Top3"></a>Top3</h2><ul>
+  <li>Sufjan Stevens - Versuvius</li>
+  <li>Chouchou - sign 0</li>
+  <li>DECO*27 - 妄想感想代償連盟</li>
+</ul>
+
+
+
+<p>荣誉提名：</p>
+<table>
+<thead>
+<tr>
+<th>Valse nonchalante en Rè-bémol Majeur</th>
+<th>Camille Saint-Saëns</th>
+<th>Classical</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>my future</td>
+<td>Billie Eiliesh</td>
+<td>Alternative</td>
+</tr>
+</tbody></table>
+<h2 id="打分时间！？"><a href="#打分时间！？" class="headerlink" title="打分时间！？"></a>打分时间！？</h2><blockquote>
+<p>本月没有感兴趣的专辑，所以省略打分环节。</p>
+<p>最后祝大家艺术每一天。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>Music</tag>
+        <tag>Playlist</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSS Media Query</title>
+    <url>/2020/08/31/mediaquery/</url>
+    <content><![CDATA[<h2 id="Media-Query"><a href="#Media-Query" class="headerlink" title="Media Query"></a>Media Query</h2><h3 id="What-is-media-query-used-for"><a href="#What-is-media-query-used-for" class="headerlink" title="What is media query used for?"></a>What is media query used for?</h3><p>automatically adjust the layout according to user’s device.</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width:</span> <span class="number">1280px</span>)&#123; <span class="comment">/*media feature result in true or false*/</span></span><br><span class="line">  <span class="selector-tag">p</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: blue;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>Media Query with Logical Operators</strong></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@media</span> (<span class="attribute">min-width:</span> <span class="number">768px</span>) <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">991px</span>)&#123;...&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Devices with width within this range applies to styling in the curly bracket.</p>
+</blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width:</span> <span class="number">768px</span>) , (<span class="attribute">min-width:</span> <span class="number">991px</span>)&#123;...&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Devices with width is either &lt; 768 or &gt; 991 applies to styling in the curly bracket.</p>
+</blockquote>
+<p><strong>Notice: not to overlap range boundaries</strong></p>
+<h3 id="12-Column-Grid-Responsive-Layout"><a href="#12-Column-Grid-Responsive-Layout" class="headerlink" title="12-Column Grid Responsive Layout"></a>12-Column Grid Responsive Layout</h3><figure class="highlight"><table><tr><td class="code"><pre><span class="line">@media(min-width: 950px) and (max-width:1199px)&#123;</span><br><span class="line">  <span class="selector-class">.col-md-1</span>,<span class="selector-class">.col-md-2</span>,<span class="selector-class">.col-md-3</span>,<span class="selector-class">.col-md-4</span>,<span class="selector-class">.col-md-5</span>,<span class="selector-class">.col-md-6</span>,<span class="selector-class">.col-md-7</span>,<span class="selector-class">.col-md-8</span>,<span class="selector-class">.col-md-9</span>,<span class="selector-class">.col-md-10</span>,<span class="selector-class">.col-md-11</span>,<span class="selector-class">.col-md-12</span></span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid green;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.col-lg-1</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">8.33%</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.col-lg-2</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">16.67%</span>;</span><br><span class="line">&#125;</span><br><span class="line">  </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*etc.*/</span></span><br><span class="line"></span><br><span class="line">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Web Dev Week 3</title>
+    <url>/2020/09/01/Web%20Dev%20Week%203/</url>
+    <content><![CDATA[<h2 id="Web-Dev-Week-3"><a href="#Web-Dev-Week-3" class="headerlink" title="Web Dev Week 3"></a>Web Dev Week 3</h2><ul>
+  <li>Bring examples of other sites to help clients figure out what them want</li>
+  <li>Encourage client to use less info</li>
+  <li>Client should invest in the project</li>
+  <li>Client should have one person as the decider</li>
+  <li>Limit number of revisions</li>
+  <li>involve others to help you produce a great product</li>
+</ul>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>Fourth Of July (From Album Carrie &amp; Lowell) Explained</title>
+    <url>/2020/10/08/Fourth%20Of%20July%20(From%20Album%20Carrie%20&amp;%20Lowell)%20Explained/</url>
+    <content><![CDATA[<h2 id="Fourth-Of-July-From-Album-Carrie-amp-Lowell-Explained"><a href="#Fourth-Of-July-From-Album-Carrie-amp-Lowell-Explained" class="headerlink" title="Fourth Of July (From Album Carrie &amp; Lowell) Explained"></a>Fourth Of July (From Album <em>Carrie &amp; Lowell</em>) Explained</h2><h4 id="前景提要："><a href="#前景提要：" class="headerlink" title="前景提要："></a>前景提要：</h4><p>Carrie &amp; Lowell一专主要讲述Sufjan Stevens和他的母亲Carrie之间的关系，Carrie由于长期患有精神分裂症，在Sufjan很小的时候就离家出走了。Sufjan的童年也因此鲜有母亲的陪伴。而后来当Sufjan见到Carrie的时候，Carrie已经确诊癌症。Carrie在她人生的最后时光里陪伴着Sufjan，并给予着他关怀。</p>
+<p>由于歌词写作上大量使用Reference以及视角切换的意识流手法，显得有些晦涩难懂，所以希望能通过一些搜索到的资料更好地理解歌词背后的含义。</p>
+<h4 id="这首歌有什么要注意的："><a href="#这首歌有什么要注意的：" class="headerlink" title="这首歌有什么要注意的："></a>这首歌有什么要注意的：</h4><p>除了必要的背景故事之外，整首歌的结构是三段式(Verse+Chorus为一段)+Outro。每段的Verse和Chorus的叙述主体是不同的。<strong>Verse段的歌词是Sufjan的视角，而Chorus段的歌词则是Carrie的视角。</strong></p>
+<p><iframe src="https://open.spotify.com/embed/undefined/undefined" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>]]></content>
+  </entry>
+</search>

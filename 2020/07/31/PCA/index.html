@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+
+<head>
+
+    
+    
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8" />
+    <meta name="baidu-site-verification" content="fbR0c5QCKl" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>机器学习 PCA算法 - Niflheimr</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    
+    <meta name="keywords" content="Naoyuki,机器学习,算法"> 
+    
+    <meta name="description" content="夜间观看请点
+PCA在机器学习降维中的应用为什么要降维(Dimensionality Reduction)？   1.提取重要信息，防止计算量过大
+   2.高维信息无法用图像呈现，将图像降维至3维,"> 
+    
+    <meta name="author" content="Naoyuki"> 
+    
+    <link rel="alternative" href="atom.xml" title="Niflheimr" type="application/atom+xml"> 
+    
+    <link rel="icon" href="/themes/diaspora/source/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-8691406134231910",
+            enable_page_level_ads: true
+        });
+    </script>
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+<meta name="generator" content="Hexo 4.2.1"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body class="loading">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><span id="config-title" style="display:none">Niflheimr</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://www.naoyuki.top"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">机器学习 PCA算法</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">机器学习 PCA算法</h1>
+        <div class="stuff">
+            <span>七月 31, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" rel="tag">机器学习</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p><a href="https://naoyuki.top/alter/PCA.html" target="_blank" rel="noopener">夜间观看请点</a></p>
+<h2 id="PCA在机器学习降维中的应用"><a href="#PCA在机器学习降维中的应用" class="headerlink" title="PCA在机器学习降维中的应用"></a>PCA在机器学习降维中的应用</h2><h3 id="为什么要降维-Dimensionality-Reduction-？"><a href="#为什么要降维-Dimensionality-Reduction-？" class="headerlink" title="为什么要降维(Dimensionality Reduction)？"></a>为什么要降维(Dimensionality Reduction)？</h3><p>   1.提取重要信息，防止计算量过大</p>
+<p>   2.高维信息无法用图像呈现，将图像降维至3维以下可以用图像呈现</p>
+<h3 id="如何降维？"><a href="#如何降维？" class="headerlink" title="如何降维？"></a>如何降维？</h3><p>用两个简单的例子来说明：</p>
+<h4 id="2维到1维："><a href="#2维到1维：" class="headerlink" title="2维到1维："></a>2维到1维：</h4><p><img src="https://i.loli.net/2020/07/31/IBne4NU3RK5sHhd.png" alt="image-20200731190754948"></p>
+<p><strong>用一条直线拟合二维平面上的所有数据点，然后每个数据点在这条线上都具有一个投影坐标，从而2维数据坐标平面变为1维直线</strong></p>
+<h4 id="3维到2维："><a href="#3维到2维：" class="headerlink" title="3维到2维："></a>3维到2维：</h4><p><img src="https://i.loli.net/2020/07/31/IwatjgBbeWcnLSQ.png" alt="image-20200731191147148"></p>
+<p><strong>同样地，用一个平面拟合空间里的所有数据点，把每个数据点投影在这个平面上，从而3维数据坐标空间变为2维平面</strong></p>
+<h3 id="PCA-Principle-Components-Analysis-主成分分析法"><a href="#PCA-Principle-Components-Analysis-主成分分析法" class="headerlink" title="PCA(Principle Components Analysis)主成分分析法"></a>PCA(Principle Components Analysis)主成分分析法</h3><blockquote>
+<p>PCA本质上是在找出一組最能代表你手中數據的主成分（Principal Components），並以此為基底重新得到數據的成分表徵。這個新的成分表徵能為數據降維、去關聯並幫助我們理解數據本質。</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/07/31/zVOfijZ1UEHCQYn.png" alt="image-20200731191907123"></p>
+<p>n维空间需要n个线性无关的向量来作为空间的基，可以简单理解为n维空间需要n个坐标轴。</p>
+<p>例如2维空间降维到1维空间，本质上就是找到一个向量，将2维平面上的所有点都投影到这个向量上。如果是n维空间降维到k维空间，则需要寻找到k个向量，并将每个数据点投影到这k个向量上，从而构成新的k维空间坐标$$\vec a = (x_1,x_2,x_3) \in \mathbb{R^3}$$</p>
+<p>3维空间降维到2维空间之后，产生2个基，从而向量可以重新表示为：</p>
+<p>假设变换矩阵为U，则新的坐标Z = U*X（原有坐标）</p>
+<p>其中$$\vec a   = (z_1,z_2)\in \mathbb{R^2}$$</p>
+<p>经过这样的流程，三维坐标被化为二维坐标，之所以二维坐标依然能保留三维数据的主要信息，是因为两个基底本身是三维的，并且他们描述了这个三维数据集的主要特性，因此后续只需要对这两个基进行线性组合就可以了。在PCA算法中，我们将N维空间压缩到K维空间，其步骤如下</p>
+<h4 id="算法具体流程"><a href="#算法具体流程" class="headerlink" title="算法具体流程"></a>算法具体流程</h4><p><img src="https://i.loli.net/2020/07/31/1XCQrZbJq69LF5M.png" alt="image-20200731194118017"></p>
+<p><strong>假设我们要把N维数据降到K维</strong></p>
+<p>定义<strong>协方差矩阵(Covariance Matrix):</strong></p>
+<p>$$\Sigma =  1/m \sum_{i=1}^n (x^i)(x^i)^T$$</p>
+<p>其中x^i为第i个训练数据，<strong>注意左侧的符号是大写的Sigma</strong>，不是求和符号。</p>
+<p>协方差矩阵是一个n* n的对称矩阵，应用svd/eig函数求得协方差矩阵的特征向量，返回值[U,S,V]为3个矩阵，其中S为与协方差矩阵相同大小的矩阵，并满足U* S* V’ = Sigma。</p>
+<p>SVD函数会将矩阵的N个特征向量按照重要性降序排列，我们选取前K个，再将原有的数据集投影到这K个<strong>比较重要</strong>的特征向量上，那么我们就将原有的N维数据压缩成了K维数据，这也是PCA的主要思想。除此之外，数学上证明，<strong>协方差矩阵的特征向量值就是我们需要找的主成分</strong>。</p>
+<p>SVD函数返回值U是协方差矩阵的特征向量矩阵，是一个n*n方阵，选取前k个后变为n*k的降维矩阵,原有的坐标Xi是一个n1的向量。$$z^i = U^T * x^i$$ </p>
+<p>其中z为k维空间的k*1的新坐标，x为原n维空间的坐标。</p>
+<p><img src="https://i.loli.net/2020/07/31/ZJ2TlWsRI3AfNVn.png" alt="image-20200731205646922"></p>
+<p>下面是一段关于特征向量的说明作为小结：</p>
+<blockquote>
+<p>具体的说，求特征向量，就是<strong>把矩阵A所代表的空间进行正交分解</strong>，使得A的向量集合可以表示为每个向量a在各个特征向量上的投影长度。我们通常求特征值和特征向量即为求出这个矩阵能使哪些向量<strong>只发生拉伸，而方向不发生变化</strong>，观察其发生拉伸的程度。这样做的意义在于，看清一个矩阵在哪些方面能产生<strong>最大的分散度</strong>（scatter），减少重叠，意味着更多的信息被保留下来。</p>
+</blockquote>
+<h4 id="我们如何衡量一个降维是好还是坏？"><a href="#我们如何衡量一个降维是好还是坏？" class="headerlink" title="我们如何衡量一个降维是好还是坏？"></a>我们如何衡量一个降维是好还是坏？</h4><p>1.较高的近似程度 2.所选择的K个基有较大变异(Variance)（原来的数据集在这个基上分散得最开）</p>
+<p>当你选择的K个基具有了很好的代表性，那么降维之后的数据就能很好近似地还原原有的数据。<strong>为了衡量近似程度，这里需要引出一个概念：重建偏差（RE）</strong></p>
+<h5 id="重建偏差（Reconstruction-Error）："><a href="#重建偏差（Reconstruction-Error）：" class="headerlink" title="重建偏差（Reconstruction Error）："></a>重建偏差（Reconstruction Error）：</h5><p>这个概念应该很好理解，就是原有数据被投影到k维之后，再还原回n维空间，值得指出的是，由于PCA没有保留所有的主成分（否则就无法实现降维），还原数据之后原有的数据必然会与还原的数据产生一定的偏差（就数据集而言），这些偏差定义出了RE：等于所有还原数据和原有数据的距离之和</p>
+<p><img src="https://i.loli.net/2020/07/31/KEMymkTUjL8VDre.png" alt="image-20200731211902129"></p>
+<p>其中T^-1（因为图是别处拿的，所以其实是降维矩阵U）的逆矩阵。</p>
+<p>根据前文，我们有$$z^i = U^T * x^i$$  那么想要还原x，就只需要左乘U’的逆矩阵，即$$inv(U^T)*z^i = X^i$$</p>
+<p><img src="https://i.loli.net/2020/07/31/tdGVKxYq2epNX1D.png" alt="image-20200731212651722"></p>
+<blockquote>
+<p>图中黄线的距离之和就是RE的值</p>
+</blockquote>
+<p>误差程度如下定义：<img src="https://i.loli.net/2020/07/31/a7xem9JlcGvunh6.png" alt="image-20200731213131810"></p>
+<p>倘若我们需要实现99%的近似程度，只需要选择一个k能使得误差程度&lt;1%就可以了，当然为了实现最大程度的压缩，k越小越好。</p>
+<h5 id="有人可能会问，是不是存在别的近似方式，使得误差程度更小呢？"><a href="#有人可能会问，是不是存在别的近似方式，使得误差程度更小呢？" class="headerlink" title="有人可能会问，是不是存在别的近似方式，使得误差程度更小呢？"></a>有人可能会问，是不是存在别的近似方式，使得误差程度更小呢？</h5><p>数学上证明（苦笑），PCA方式实现的近似是误差程度最小的。</p>
+<p>最后贴一个很好的关于PCA的链接：</p>
+<p><a href="https://leemeng.tw/essence-of-principal-component-analysis.html" target="_blank" rel="noopener">https://leemeng.tw/essence-of-principal-component-analysis.html</a></p>
+<p><a href="https://naoyuki.top" target="_blank" rel="noopener">返回主页</a></p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls"
+                data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+            <ul id="audio-list" style="display:none">
+                
+                
+                <li title='0' data-url='https://link.hhtjim.com/163/1445523693.mp3'></li>
+                
+                    
+                
+                <li title='1' data-url='https://link.hhtjim.com/163/1431080276.mp3'></li>
+                
+                    
+                
+                <li title='2' data-url='https://link.hhtjim.com/163/85055008.mp3'></li>
+                
+                    
+            </ul>
+            
+        </div>
+        <div id="gitalk-container" class="comment link">加载评论</div>
+        </div>
+        
+</div>
+    </div>
+</div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/valine/1.4.14/Valine.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+</html>

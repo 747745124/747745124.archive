@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+
+<head>
+
+    
+    
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8" />
+    <meta name="baidu-site-verification" content="fbR0c5QCKl" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>机器学习 K-means聚类算法 - Niflheimr</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    
+    <meta name="keywords" content="Naoyuki,机器学习,算法"> 
+    
+    <meta name="description" content="夜间观看请点
+Machine Learning K-means Clutstering Part 1K-means聚类是unsupervised learning-&amp;gt;clustering问题当,"> 
+    
+    <meta name="author" content="Naoyuki"> 
+    
+    <link rel="alternative" href="atom.xml" title="Niflheimr" type="application/atom+xml"> 
+    
+    <link rel="icon" href="/themes/diaspora/source/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-8691406134231910",
+            enable_page_level_ads: true
+        });
+    </script>
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+<meta name="generator" content="Hexo 4.2.1"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body class="loading">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><span id="config-title" style="display:none">Niflheimr</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://www.naoyuki.top"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">机器学习 K-means聚类算法</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">机器学习 K-means聚类算法</h1>
+        <div class="stuff">
+            <span>七月 30, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" rel="tag">机器学习</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p><a href="https://naoyuki.top/alter/kmeans.html" target="_blank" rel="noopener">夜间观看请点</a></p>
+<h2 id="Machine-Learning-K-means-Clutstering-Part-1"><a href="#Machine-Learning-K-means-Clutstering-Part-1" class="headerlink" title="Machine Learning K-means Clutstering Part 1"></a>Machine Learning K-means Clutstering Part 1</h2><p>K-means聚类是unsupervised learning-&gt;clustering问题当中的常见算法。</p>
+<blockquote>
+<p>聚类即给一定组数据，将类似的数据进行分组, 组内成员的相似性根据算法而变化，一般取决于坐标，距离等。K-means聚类是通过单个点类内中心(kernel)的距离来进行分类。</p>
+</blockquote>
+<img src="https://i.loli.net/2020/07/30/bEGUyTLYcOMzK5H.png" alt="image-20200730183733908" style="zoom:25%;" />
+
+
+
+
+
+<h3 id="其基本思路如下："><a href="#其基本思路如下：" class="headerlink" title="其基本思路如下："></a>其基本思路如下：</h3><p>首先确定集群的数量（即：我要把这些数据分成几类？）<strong>算法特点</strong></p>
+<p>以下图为例，假设需要初始化3个中心，则随机设置3个点（通常从数据当中选）</p>
+<img src="https://i.loli.net/2020/07/30/hDvtBG3QjpxdCmP.png" alt="image-20200730184340107" style="zoom:25%;" />
+
+
+
+<p>每个点都计算并判断距离自己最近的中心点，从而每个点都被分类到了一个集群当中</p>
+<p>例如离我最近的中心点是2号中心点，那么此时我被归类到2号集群当中</p>
+<img src="https://i.loli.net/2020/07/30/b3SKF2P4jpwiVqG.png" alt="image-20200730184605350" style="zoom:25%;" />
+
+
+
+
+
+<p>计算每个集群的重心， 然后将中心点移动到重心处</p>
+<img src="https://i.loli.net/2020/07/30/NtX3Gf46yP7IOTY.png" alt="image-20200730184800330" style="zoom:25%;" />
+
+
+
+<p>每个点再次计算距离自己最近的中心点，并重新聚类</p>
+<p>可以看出，每个点所归属的类别是可能随着中心点发生改变而改变的。</p>
+<p>重复【移动中心点】-&gt; 【聚类】一直到中心点不再移动（收敛）<strong>数学证明收敛有必然性，此处略</strong></p>
+<img src="https://i.loli.net/2020/07/30/sOhwNqdQanPU52F.png" alt="image-20200730185629996" style="zoom:25%;" />
+
+
+
+<p>K-means的特性是聚类结果根据随机设置的中心点的位置而发生改变，即初始值会影响终态</p>
+<p>另一个特性则是前面提到过的<strong>需要提前确定好将数据分成几类</strong></p>
+<h3 id="具体算法："><a href="#具体算法：" class="headerlink" title="具体算法："></a>具体算法：</h3><h4 id="模型假设："><a href="#模型假设：" class="headerlink" title="模型假设："></a>模型假设：</h4><p>假设一共有要分成K类</p>
+<p>一共有m个数据$${x^1,x^2,x^3,x^4…x^m}$$每个数据为n维，即$$x^i \in \mathbb{R^n} $$</p>
+<p>一共有K个中心点（分成K类）$$\mu_1,\mu_2,\mu_3…\mu_K$$这些中心点从数据中随机选择(randomly initialized)</p>
+<p>Ci 定义为距离点 Xi 最近的中心点编号，例如：点  X2 距离中心点  U1 最近，那么 C2 =1.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">while(not converged yet)</span><br><span class="line">&#123;</span><br><span class="line">for(i &#x3D; 1 to m)</span><br><span class="line"> &#123;</span><br><span class="line">  distance &#x3D; (Xi-U1)^2</span><br><span class="line">  index &#x3D; 1</span><br><span class="line">  </span><br><span class="line">  for(k &#x3D; 1 to K)</span><br><span class="line">      &#123;</span><br><span class="line">      temp &#x3D; (Xi-Uk)^2</span><br><span class="line">      </span><br><span class="line">      if(temp &lt; distance)</span><br><span class="line">      &#123;distance &#x3D; temp</span><br><span class="line">      index &#x3D; k&#125;</span><br><span class="line">      </span><br><span class="line">      &#125; &#x2F;&#x2F; gets the index of kernel U when distance (Xi-Uk)^2 reaches minimum</span><br><span class="line">      </span><br><span class="line">  Ci &#x3D; k </span><br><span class="line"> &#125;</span><br><span class="line"> </span><br><span class="line"> for(k &#x3D; 1 to K)</span><br><span class="line">   &#123;</span><br><span class="line">   Uk &#x3D; sum(Xi)&#x2F;n</span><br><span class="line">   &#125; </span><br><span class="line"> </span><br><span class="line"> &#125;&#x2F;&#x2F;After each repeat, Ci &#x3D; closet kernel&#39;s index, each Uk moves to new place</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="Cost-Function："><a href="#Cost-Function：" class="headerlink" title="Cost Function："></a>Cost Function：</h4><p>​    该算法的Cost Function如下定义，变量为Ci和Uk ，计算的是m个点到聚类中心点距离的平均值，也就是说平均每个点到聚类中心点的距离，以此来衡量聚类效果的好坏。</p>
+<p><img src="https://i.loli.net/2020/07/30/9coYumS7AwtjyHG.png" alt="image-20200730200626782"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">for i &#x3D; 1 to 100 &#x2F;&#x2F;not necessarily 100, just a large number</span><br><span class="line">&#123;</span><br><span class="line">randomly initialize Uk</span><br><span class="line">Run K-means, Get Ci and Uk</span><br><span class="line">Compute Cost Function J &#x2F;&#x2F;also called distortion</span><br><span class="line">Get min(J)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>由于初始值的选择会影响最终聚类的结果，因此我们需要不断随机初始值，并最终获得一个最小的J。</p>
+<h4 id="关于K值的选择："><a href="#关于K值的选择：" class="headerlink" title="关于K值的选择："></a>关于K值的选择：</h4><p>根据需求，譬如服装厂商需要根据二维数据（身高体重），将用户尺码分为S，M，L三个尺寸（也可以更多），此时K = 3， 如果需要更加细分， 增加XS， XL之后， K = 5。</p>
+<p>从Cost Function的定义当中可以看出，通常来说，在初值正常选择的情况下，分的类越多（K越大），那么Cost Function的值会越小， 当K = m时，J = 0（但这样就失去了聚类的意义）</p>
+<p><img src="https://i.loli.net/2020/07/30/TdPItvULgzD3Nik.png" alt="image-20200730202029274"></p>
+<p>K值并不是越大越好，一方面K值过大会失去聚类的意义，另一方面K值增大也会增加计算量。因此需要选择一个恰当的K，如果J-K曲线当中存在一个明显的拐点（Elbow，因为像人的手臂），那么一半选择这个点的K值作为结果。但很多时候，J-K曲线可能更像右图一些…</p>
+<p><a href="https://naoyuki.top" target="_blank" rel="noopener">回到主页</a></p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls"
+                data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+            <ul id="audio-list" style="display:none">
+                
+                
+                <li title='0' data-url='https://link.hhtjim.com/163/1445523693.mp3'></li>
+                
+                    
+                
+                <li title='1' data-url='https://link.hhtjim.com/163/1431080276.mp3'></li>
+                
+                    
+                
+                <li title='2' data-url='https://link.hhtjim.com/163/85055008.mp3'></li>
+                
+                    
+            </ul>
+            
+        </div>
+        <div id="gitalk-container" class="comment link">加载评论</div>
+        </div>
+        
+</div>
+    </div>
+</div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/valine/1.4.14/Valine.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+</html>
