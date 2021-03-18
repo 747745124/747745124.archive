@@ -662,4 +662,62 @@
         <tag>music</tag>
       </tags>
   </entry>
+  <entry>
+    <title>MacOS OpenGL环境配置-使用VSCode</title>
+    <url>/2021/03/17/MacOS%20OpenGL%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE-%E4%BD%BF%E7%94%A8VSCode/</url>
+    <content><![CDATA[<h2 id="MacOS-OpenGL环境配置-使用VSCode"><a href="#MacOS-OpenGL环境配置-使用VSCode" class="headerlink" title="MacOS OpenGL环境配置-使用VSCode"></a>MacOS OpenGL环境配置-使用VSCode</h2><p>环境:MacOS 11.0</p>
+<h4 id="需要安装的内容"><a href="#需要安装的内容" class="headerlink" title="需要安装的内容:"></a>需要安装的内容:</h4><ul>
+<li>CMake</li>
+<li>Glad</li>
+<li>Glfw</li>
+<li>Homebrew</li>
+<li>Glm</li>
+</ul>
+<p>打开Terminal（VSCode当中直接打开Terminal）</p>
+<p>1.安装Homebrew</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"</span><br></pre></td></tr></table></figure>
+
+<p>2.安装glfw/glew/glm</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">brew install glfw3</span><br><span class="line">brew install glew</span><br><span class="line">brew install glm</span><br></pre></td></tr></table></figure>
+
+<p>2.1 下载glad，并将glad.h放到usr/local/include目录下，glad.c放到待会要构建的项目根目录下</p>
+<p><a href="http://glad.dav1d.de/" target="_blank" rel="noopener">http://glad.dav1d.de/</a></p>
+<p>3.安装CMake</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">brew install CMake</span><br></pre></td></tr></table></figure>
+
+<p>4.VSCode安装CMake插件（可选）</p>
+<h4 id="创建前先检查一下："><a href="#创建前先检查一下：" class="headerlink" title="创建前先检查一下："></a>创建前先检查一下：</h4><p>/usr/local/include 和 /usr/local/Cellar 下都有glad、glfw、glm文件夹及其内容</p>
+<p>/usr/local/lib下存在libglfw.3.dylib</p>
+<h4 id="创建一个项目："><a href="#创建一个项目：" class="headerlink" title="创建一个项目："></a>创建一个项目：</h4><p>（假设助教已经提供了base文件）</p>
+<p>在项目根目录下存在glad.c</p>
+<p>根目录下创建CMakeLists.txt，保存</p>
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line"><span class="keyword">cmake_minimum_required</span>(VERSION <span class="number">3.19</span>)</span><br><span class="line"><span class="keyword">project</span> (projName)<span class="comment">#项目名</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span>(GLAD_H <span class="variable">$&#123;PROJECT_SOURCE_DIR&#125;</span>/<span class="keyword">include</span>)</span><br><span class="line"><span class="keyword">set</span>(GLFW_H /usr/local/<span class="keyword">include</span>)</span><br><span class="line"><span class="keyword">set</span>(dependencies /base)</span><br><span class="line"><span class="comment">#/base是助教给的基类文件夹（如果还没给可以先做修改）</span></span><br><span class="line"><span class="keyword">include_directories</span>(<span class="variable">$&#123;GLAD_H&#125;</span> <span class="variable">$&#123;GLFW_H&#125;</span> <span class="variable">$&#123;dependencies&#125;</span>)</span><br><span class="line"><span class="keyword">set</span>(CMAKE_CXX_STANDARD <span class="number">17</span>)</span><br><span class="line"><span class="keyword">set</span>(GLFW_LINK /usr/local/lib/libglfw.<span class="number">3</span>.dylib)</span><br><span class="line"></span><br><span class="line"><span class="keyword">link_libraries</span>(<span class="variable">$&#123;GLFW_LINK&#125;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 执行编译命令 testc</span></span><br><span class="line"><span class="keyword">set</span>(baseSOURCES glad.c base/shader.cpp base/application.cpp)</span><br><span class="line"><span class="comment">#助教给的基类cpp文件 还有glad.c</span></span><br><span class="line"><span class="keyword">set</span>(SOURCES star.cpp main.cpp render_flag.cpp flag.cpp )</span><br><span class="line"><span class="comment">#这里填写你要的编译的文件</span></span><br><span class="line"><span class="keyword">add_executable</span>(projName) <span class="variable">$&#123;baseSOURCES&#125;</span> <span class="variable">$&#123;SOURCES&#125;</span>)</span><br><span class="line"><span class="comment">#项目名</span></span><br><span class="line"><span class="comment"># 链接系统的 OpenGL 框架</span></span><br><span class="line"><span class="keyword">if</span> (APPLE)</span><br><span class="line">    <span class="keyword">target_link_libraries</span>(projName <span class="string">"-framework OpenGL"</span>)</span><br><span class="line"><span class="keyword">endif</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span>(GLFW_LINK /usr/local/lib/libglfw.<span class="number">3</span>.dylib)</span><br><span class="line"><span class="keyword">link_libraries</span>(<span class="variable">$&#123;GLFW_LINK&#125;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">include</span>(CTest)</span><br><span class="line"><span class="keyword">enable_testing</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span>(CPACK_PROJECT_NAME <span class="variable">$&#123;PROJECT_NAME&#125;</span>)</span><br><span class="line"><span class="keyword">set</span>(CPACK_PROJECT_VERSION <span class="variable">$&#123;PROJECT_VERSION&#125;</span>)</span><br><span class="line"><span class="keyword">include</span>(CPack)</span><br></pre></td></tr></table></figure>
+
+
+
+<p>项目文件夹目录应该像是这个样子：</p>
+<figure class="highlight armasm"><table><tr><td class="code"><pre><span class="line">/<span class="keyword">base</span></span><br><span class="line"><span class="keyword">	</span>助教提供的基类文件</span><br><span class="line">/<span class="keyword">build</span></span><br><span class="line"><span class="keyword">	</span>CMake生成的文件</span><br><span class="line"><span class="symbol">CMakeLists.txt</span></span><br><span class="line">其他编译的文件</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2021/03/17/NflZPXaq2jgdY58.png" alt="image-20210317091209034"></p>
+<h4 id="编译文件："><a href="#编译文件：" class="headerlink" title="编译文件："></a>编译文件：</h4><p>terminal内输入</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake ..</span><br><span class="line">make</span><br></pre></td></tr></table></figure>
+
+<p>如果出现linker error 可能是头文件include出现问题，检查文件夹</p>
+<p>编译成功后输入./(项目名称)，例如本案例中输入./projName即可打开</p>
+<h4 id="可能遇到的问题："><a href="#可能遇到的问题：" class="headerlink" title="可能遇到的问题："></a>可能遇到的问题：</h4><p>1.brew安装特别慢：替换国内源</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 替换brew.git</span></span><br><span class="line">cd "$(brew --repo)"</span><br><span class="line">git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 替换homebrew-core.git</span></span><br><span class="line">cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"</span><br><span class="line">git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 刷新源</span></span><br><span class="line">brew update</span><br></pre></td></tr></table></figure>
+
+<p>2.仍然缺少头文件?</p>
+<p>确保        usr/local/Cellar文件夹下有GLFW/GLM/GLEW文件夹</p>
+<p>同时        usr/local/include有.h文件</p>
+<p>如果还有问题，检查一下CMakeLists内容是否正确</p>
+]]></content>
+      <categories>
+        <category>Graphics</category>
+      </categories>
+      <tags>
+        <tag>OpenGL</tag>
+        <tag>Development Environment</tag>
+      </tags>
+  </entry>
 </search>
